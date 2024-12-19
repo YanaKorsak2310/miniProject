@@ -11,13 +11,18 @@
     
   </head>
 <body>
-    <section class="main">
+    <section>
       <div class="card">
          <div class="images-block"> 
-            <img src="./assets/main-image.png" alt="main image">
+          <div class="main-img-wrap"><img src="./assets/main-image.png" alt="main image">
+          </div>
             <div class="previews-wrapper">
-              <div class="preview"><img src="./assets/image-1.png" alt="preview image"></div>
-              <div class="preview selected"><img src="./assets/image-2.png" alt="preview image"></div>
+              <div class="preview">
+                <img src="./assets/image-1.png" alt="preview image">
+              </div>
+              <div class="preview selected">
+                <img src="./assets/image-2.png" alt="preview image">
+              </div>
             </div>
          </div>
          <div class="description-block">
@@ -26,7 +31,7 @@
           <p class="text">Fluted Contrast represents the perfect fusion between the  aesthetic and the functional. The design is elegant and modern, created out of a deep respect for Royal British history and traditions</p>
           <div class="colors">
             <h2 class="block-title">Color options</h2>
-  <ul>
+  <ul class="colors-list">
     <li class="selected">
       <div class="circle blue"></div>
     </li>
@@ -43,9 +48,8 @@
       <div class="circle yellow"></div>
     </li>
   </ul>
-            
           </div>
-          <div>
+          <div class="wrapper"> <div>
             <h2 class="block-title">Quantity</h2>
             <select name="quantity" id="quantity">
               <option value="">1</option>
@@ -57,6 +61,7 @@
             <h2 class="block-title">Price</h2>
             <span class="price"> eur 39,00</span>
           </div>
+        </div>
           <button class="btn">Add to Basket</button>
          </div>
        </div>
